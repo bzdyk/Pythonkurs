@@ -1,1 +1,1 @@
-print('DUPA3')
+print('DUPA')
