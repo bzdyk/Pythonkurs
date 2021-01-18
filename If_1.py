@@ -9,15 +9,12 @@ num_shares = 199
 if num_likes >= MIN_LIKES and num_shares >= MIN_SHARES:
     print("Jest zniżka")
 
-elif num_likes < MIN_LIKES and num_shares < MIN_SHARES :
+elif num_likes < MIN_LIKES and num_shares < MIN_SHARES:
     print("za mało laików i udostępnień")
 elif num_likes < MIN_LIKES:
     print("za mało laików")
 else:
     print("za mało udostępmień")
-
-
-
 
 isPizzaOrdered = False
 isBigDrinkOrdered = False
@@ -30,10 +27,6 @@ elif isWeekend:
 else:
     print("brak Burgera - musisz zamowić pizze lub duży napój")
 
-
-
-
-
 diskSize = 160
 diskSizeUsed = 133
 fileSize = 10
@@ -42,17 +35,3 @@ if diskSize-diskSizeUsed > fileSize:
     print("File can be downloaded")
 else:
     print("File can't be downloaded")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
